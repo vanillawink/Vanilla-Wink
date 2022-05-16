@@ -1,0 +1,149 @@
+info:
+  namespace: vanillaupt
+items:
+  destroer_flint:
+    display_name: Осколок кремня
+    resource:
+      material: FLINT
+      generate: true
+      parent: item/flint
+      textures:
+      - item/items/items/destroer_flint.png
+  fiber:
+    display_name: Волокно
+    resource:
+      material: FLINT
+      generate: true
+      parent: item/flint
+      textures:
+      - item/items/items/fiber.png
+  flint_pickaxe:
+    display_name: Кремнеевая кирка
+    resource:
+      material: WOODEN_PICKAXE
+      generate: true
+      textures:
+      - item/tools/flint_pickaxe.png
+    durability:
+        max_custom_durability: 25
+        custom_durability: 25
+        disappear_when_broken: true
+        unbreakable: false
+  flint_axe:
+    display_name: Кремнеевый топор
+    resource:
+      material: WOODEN_AXE
+      generate: true
+      textures:
+      - item/tools/flint_axe.png
+    durability:
+        max_custom_durability: 25
+        custom_durability: 25
+        disappear_when_broken: true
+        unbreakable: false
+  stone_axe:
+    display_name: Каменный топор
+    resource:
+      material: STONE_AXE
+      generate: true
+      textures:
+      - item/tools/stone_axe.png
+    durability:
+        max_custom_durability: 150
+        custom_durability: 150
+        disappear_when_broken: true
+        unbreakable: false
+  stone_pickaxe:
+    display_name: Каменная кирка
+    resource:
+      material: STONE_PICKAXE
+      generate: true
+      textures:
+      - item/tools/stone_pickaxe.png
+    durability:
+        max_custom_durability: 150
+        custom_durability: 150
+        disappear_when_broken: true
+        unbreakable: false
+  stone_hoe:
+    display_name: Каменная мотыга
+    resource:
+      material: STONE_HOE
+      generate: true
+      textures:
+      - item/tools/stone_hoe.png
+    durability:
+        max_custom_durability: 150
+        custom_durability: 150
+        disappear_when_broken: true
+        unbreakable: false
+  stone_shovel:
+    display_name: Каменная лопата
+    resource:
+      material: STONE_SHOVEL
+      generate: true
+      textures:
+      - item/tools/stone_shovel.png
+    durability:
+        max_custom_durability: 150
+        custom_durability: 150
+        disappear_when_broken: true
+        unbreakable: false
+  stone_sword:
+    display_name: Каменный меч
+    resource:
+      material: STONE_SWORD
+      generate: true
+      textures:
+      - item/tools/stone_sword.png
+    durability:
+        max_custom_durability: 150
+        custom_durability: 150
+        disappear_when_broken: true
+        unbreakable: false
+loots:
+  blocks:
+    grass:
+      type: GRASS
+      items:
+        fiber:
+          item: vanillaupt:fiber
+          max_amount: 3
+          min_amount: 1
+          chance: 30
+recipes:
+  crafting_table:
+    destroer_flint:
+      enabled: true
+      pattern:
+      - CX
+      - XX
+      ingredients:
+        C: FLINT
+      result:
+        item: vanillaupt:destroer_flint
+        amount: 3
+    flint_pickaxe:
+      enabled: true
+      pattern:
+      - DFX
+      - SDX
+      ingredients:
+        F: vanillaupt:fiber
+        D: vanillaupt:destroer_flint
+        S: STICK
+      result:
+        item: vanillaupt:flint_pickaxe
+        amount: 10
+    flint_axe:
+      enabled: true
+      pattern:
+      - FDX
+      - SDX
+      ingredients:
+        F: vanillaupt:fiber
+        D: vanillaupt:destroer_flint
+        S: STICK
+      result:
+        item: vanillaupt:flint_axe
+        amount: 1
