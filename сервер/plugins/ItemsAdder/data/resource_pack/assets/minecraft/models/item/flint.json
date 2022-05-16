@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/flint"},"overrides":[{"predicate":{"custom_model_data":10001},"model":"vanillaupt:auto_generated/destroer_flint"},{"predicate":{"custom_model_data":10002},"model":"vanillaupt:auto_generated/fiber"},{"predicate":{"custom_model_data":10003},"model":"minecraft:item/flint"}]}
