@@ -1,0 +1,44 @@
+class-points: 8
+skill-points: 96
+attribute-points: 0
+attribute-realloc-points: 0
+level: 100
+experience: 0
+class: ROGUE
+waypoints: []
+friends: []
+last-login: 1651840293367
+bound-skills:
+- WEAKEN
+- DEEP_WOUND
+- WEAKEN
+- EMPOWERED_ATTACK
+- EVADE
+- EMPOWERED_ATTACK
+times-claimed:
+  class:
+    ROGUE:
+      class_exp_table: 0
+skill:
+  WEAKEN: 4
+attribute:
+  dexterity: 0
+  strength: 0
+  intelligence: 0
+profession:
+  woodcutting:
+    exp: 22
+    level: 0
+  farming:
+    exp: 0
+    level: 16758605
+quest:
+  finished:
+    fetch-mango: 1651671898219
+class-info:
+  PALADIN:
+    level: 1
+    experience: 0
+    skill-points: 0
+    attribute-points: 0
+    attribute-realloc-points: 0
