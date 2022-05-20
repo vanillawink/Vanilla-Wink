@@ -1,32 +1,12 @@
 
 # Display options
 display:
-    name: 'Arcane Mage'
+    name: 'Строитель'
     lore:
-    - 'The Mage has mastered the power of the'
-    - 'Arcanes, taking down any enemy on his path'
-    - 'using powerful magic & ranged abilities.'
-    attribute-lore:
-    - '&a+ &7Mana Regeneration'
-    - '&a+ &7Health Regeneration'
-    - '&a+ &7Max Mana'
-    - '&c- &7Max Health'
-    - ''
-    - '&8&lStrength'
-    - '&7  Attack Damage: &c1 &7(+&c0&7)'
-    - '&7  Attack Speed: &c4 &7(+&c0&7)'
-    - '&7  Max Health: &c18 &7(+&c0&7)'
-    - ''
-    - '&8&lDexterity'
-    - '&7  Knockback Resistance: &a0% &7(+&a0%&7)'
-    - '&7  Movement Speed: &a20 &7(+&a0&7)'
-    - '&7  Speed Malus Reduction: &a0% &7(+&a0%&7)'
-    - ''
-    - '&8&lIntellect'
-    - '&7  Max Mana: &930 &7(+&91.3&7)'
-    - '&7  Health Regen: &90.13 &7(+&90&7)'
-    - '&7  Mana Regen: &90.2 &7(+&90.04&7)'
-    item: BLAZE_POWDER:1 # Supports custom model data/texture by durability
+    - 'Этот класс в основном занимается'
+    - 'строительством, по этому у него есть дополнительные'
+    - 'сердца в количестве 3 штук'
+    item: DIAMOND_AXE:1 # Supports custom model data/texture by durability
 
 # Must match an existing exp curve filename from the 'expcurves' folder
 exp-curve: levels
